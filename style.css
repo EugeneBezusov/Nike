@@ -1,0 +1,181 @@
+body{
+    width: 100%;
+    min-width: 1200px;
+}
+.page {
+background: url(img/background.jpg) no-repeat;
+background-size: cover;
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('fonts/Roboto Light/Roboto Light.ttf');
+}
+@font-face{
+    font-family: 'Roboto Condensed';
+    src: url('fonts/roboto-condensed/RobotoCondensed.ttf');
+}
+.logo {
+    margin-left: 5%;
+    margin-top: 30px;
+    display: block;
+    float: left;
+    cursor: pointer;
+
+}
+.menu {
+    float: right;
+    margin-right: 5%;
+    margin-top: 30px;
+    display: block;
+    cursor: pointer;
+}
+.top ul{
+    margin-left: 24%;   
+}
+.top ul li {
+    font-family: 'Roboto Light';
+    font-size: 20px;
+    color: white;
+    float: left;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-top: 24px;
+    cursor: pointer;
+    line-height: 1.2rem;
+}
+.top ul li:hover {
+    border-bottom: 1px white solid;
+}
+.bgmain {
+    width: 809px;
+    height: 409px;
+    background: url(img/bgmain.png) no-repeat;
+    margin: auto;
+    margin-top: 110px;
+}
+.bgcardl {
+    width: 502px;
+    height: 428px;
+    margin-left: 30px;
+    background: #f4f4f4;
+    position: relative;
+    float: left;
+    bottom: 8px;
+}
+.shum {
+    width: 502px;
+}
+.nike {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+.bgcardr {
+    width: 248px;
+    height: 428px;
+    background: white;
+    float: left;
+    position: relative;
+    bottom: 8px;
+}
+.bgcenter{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.plus {
+    position: relative;
+    bottom: 140px;
+    left: 460px;
+    cursor: pointer;
+}
+.nikesmall {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 100px;
+    left: 140px;
+    padding: 5px;
+    cursor: pointer;
+}
+.close {
+    position: relative;
+    left: 220px;
+    top: 10px;
+    cursor: pointer;
+}
+.new {
+    position: relative;
+    top: 40px;    
+}
+.title {
+    position: relative;
+    top: 40px;
+    font-family: 'Roboto Condensed';
+    font-size: 25px;
+    left: 20px;
+}
+.run{
+    color : #5e4fff;
+}
+.huarache {
+    position: relative;
+    left: 20px;
+    top: 16px;
+}
+.price {
+    font-family: 'Roboto Light';
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+}
+.size {
+    position: relative;
+    left: 20px;
+}
+.sizen li{
+    font-family: 'Roboto Condensed';
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 8px;
+    border: 1px white solid;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    right: 14px;
+    bottom: 20px;
+    padding-top: 2px;
+
+}
+.sizen li:hover {
+    border: 1px black solid;
+    cursor: pointer;
+}
+.sizen li::selection {
+    border: 1px black solid;
+}
+.buy li {
+    clear: both;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    width: 126px;
+    height: 30px;
+    list-style-type: none;
+    border: 1px solid black ;
+    position: relative;
+    right: 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 6px;
+} 
+.buy li:first-child {
+    background-color: #a200b8;
+    color: white;
+    border: #a200b8;
+}
+
